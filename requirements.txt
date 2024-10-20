@@ -1,4 +1,4 @@
 ﻿Django==2.2
 pytz==2024.2
 setuptools
-sqlparse==0.5.1
+sqlparse
