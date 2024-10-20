@@ -4,8 +4,6 @@ from django.urls import reverse
 from django.views import generic
 
 
-from django.shortcuts import render
-
 from .models import Choice, Question
 
 
