@@ -14,9 +14,11 @@ after_script:
 - coveralls
 deploy:
   provider: elasticbeanstalk
+  access_key_id: $AWS_ACCESS_KEY_ID
+  secrect_access_key: $AWS_SECRECT_ACCESS_KEY
   region: us-west-2
-  app: example-app-name
-  env: example-app-environment
+  app: django-polls-app
+  env: django-polls-app-env
   bucket_name: the-target-S3-bucket
 env:
   global:
