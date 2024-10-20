@@ -2,3 +2,6 @@
 pytz==2024.2
 setuptools
 sqlparse
+black
+flake8
+coverage
