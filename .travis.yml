@@ -19,7 +19,7 @@ deploy:
   region: us-west-2
   app: django-polls-app
   env: django-polls-app-env
-  bucket_name: the-target-S3-bucket
+  # bucket_name: the-target-S3-bucket
 
 env:
   global:
