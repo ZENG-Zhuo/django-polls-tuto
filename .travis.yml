@@ -20,6 +20,11 @@ deploy:
   app: django-polls-app
   env: django-polls-app-env
   # bucket_name: the-target-S3-bucket
+  on:
+    repo: django-polls-tuto
+    branches:    
+      only:      
+        - main 
 
 env:
   global:
