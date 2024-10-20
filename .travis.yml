@@ -22,7 +22,7 @@ deploy:
   bucket_name: elasticbeanstalk-us-west-2-440744227794
   on:
     branch:    
-        - main 
+        # - main 
 
 env:
   global:
